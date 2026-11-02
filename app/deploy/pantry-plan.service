@@ -1,0 +1,9 @@
+[Unit]
+Description=Regenerate the weekly dinner plan (Pantry dashboard)
+
+[Service]
+Type=oneshot
+User=pantry
+WorkingDirectory=/opt/pantry/app
+EnvironmentFile=/etc/pantry.env
+ExecStart=/opt/pantry/venv/bin/python planner.py

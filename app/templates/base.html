@@ -3,6 +3,7 @@
 <nav><b>Pantry</b>
 {% set p = request.url.path %}
 <a href="/" class="{{ 'on' if p == '/' or p.startswith('/recipe') or p.startswith('/cook') }}">Tonight</a>
+<a href="/plan" class="{{ 'on' if p.startswith('/plan') }}">Week</a>
 <a href="/inventory" class="{{ 'on' if p.startswith('/inventory') }}">Inventory</a>
 <a href="/soon" class="{{ 'on' if p == '/soon' }}">Use soon</a>
 <a href="/shopping" class="{{ 'on' if p.startswith('/shopping') }}">Shopping</a>

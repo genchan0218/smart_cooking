@@ -9,7 +9,7 @@ from fastapi.responses import HTMLResponse, RedirectResponse, Response
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
-import db, matcher, vision
+import db, matcher, planner, vision
 
 HERE = Path(__file__).resolve().parent
 UPLOADS = Path(os.environ.get("GROCERY_UPLOADS", HERE / "uploads"))
@@ -24,7 +24,7 @@ tpl.env.globals.update(LOCATIONS=db.LOCATIONS, LOC_LABEL=db.LOC_LABEL, CATEGORIE
                        vision_on=vision.enabled(), today=lambda: date.today().isoformat())
 PASSWORD = os.environ.get("APP_PASSWORD")
 QUICK_MIN = 30
-SKIP_KINDS = {"Dessert", "Drinks", "Side Dish", "Snack", "Appetizer"}
+SKIP_KINDS = {"Dessert", "Drinks", "Side Dish", "Side", "Snack", "Appetizer", "Condiments"}
 
 
 @app.middleware("http")
@@ -121,6 +121,36 @@ def soon(request: Request):
     rows = sorted(item_rows(), key=lambda r: (r["status"][2] if r["status"][2] is not None else 9999))
     groups = {"past": [r for r in rows if r["status"][1] == "past"], "soon": [r for r in rows if r["status"][1] == "soon"]}
     return tpl.TemplateResponse(request, "soon.html", dict(groups=groups))
+
+
+@app.get("/plan", response_class=HTMLResponse)
+def plan_page(request: Request):
+    days = planner.load()
+    seen, week_missing = set(), []
+    for d in days:
+        for m in d["missing"]:
+            if m not in seen:
+                seen.add(m); week_missing.append(m)
+    return tpl.TemplateResponse(request, "plan.html", dict(days=days, week_missing=week_missing))
+
+
+@app.post("/plan/generate")
+def plan_generate():
+    planner.save(planner.generate())
+    return go("/plan")
+
+
+@app.post("/plan/shopping")
+def plan_shopping():
+    con = db.connect()
+    have = {r["text"] for r in con.execute("SELECT text FROM shopping WHERE done=0")}
+    for d in planner.load():
+        for m in d["missing"]:
+            if m not in have:
+                have.add(m)
+                con.execute("INSERT INTO shopping(text,recipe) VALUES(?,?)", (m, d["info"]["row"]["name"] if d["info"] else None))
+    con.commit(); con.close()
+    return go("/shopping")
 
 
 @app.get("/shopping", response_class=HTMLResponse)

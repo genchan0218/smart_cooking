@@ -1,0 +1,15 @@
+{% extends "base.html" %}{% block title %}This week{% endblock %}{% block body %}
+<h1>This week's dinners</h1>
+<p class="mut">One dish a day for 2 adults + a toddler. Quick dishes and items close to their best-by date are favoured, cuisines are mixed, and each pack is only used once. {% if days and days[0].generated_on %}Generated {{ days[0].generated_on }}.{% endif %}</p>
+<form class="row" method="post" action="/plan/generate"><button>Regenerate plan</button>
+{% if week_missing %}<button class="sec" formaction="/plan/shopping">Add the week's missing items to the shopping list</button>{% endif %}</form>
+{% for d in days %}<div class="card"><div class="mut">{{ d.weekday }} {{ d.day }}</div>
+{% if d.info %}<h3><a href="/recipe/{{ d.info.row.id }}">{{ d.info.row.name }}</a></h3>
+<div class="mut">{{ d.info.row.cuisine }}{% if d.info.row.minutes %} · {{ d.info.row.minutes }} min{% endif %}</div>
+{% for f in d.info.flags %}<span class="pill flag">toddler: {{ f }}</span>{% endfor %}
+{% if d.uses %}<div class="mut">Uses: {{ d.uses | join(', ') }}</div>{% endif %}
+{% if d.missing %}<div class="mut">Missing: {{ d.missing | map('truncate', 40) | join('; ') }}</div>{% endif %}
+{% else %}<h3>No good match</h3><div class="mut">Nothing in the inventory fits well. Add items or shop first.</div>{% endif %}</div>
+{% else %}<p class="mut">No plan yet. Press "Regenerate plan".</p>{% endfor %}
+{% if week_missing %}<h2>To buy for the week</h2><ul class="plain">{% for m in week_missing %}<li>{{ m }}</li>{% endfor %}</ul>{% endif %}
+{% endblock %}

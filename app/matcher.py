@@ -112,12 +112,14 @@ def recipe_info(rid):
     return _recipes().get(rid)
 
 
-def score_all(today=None):
-    """Score every recipe against current inventory."""
+def score_all(today=None, items=None):
+    """Score every recipe against current inventory (or a simulated `items` list, as the weekly planner uses)."""
     today = today or date.today()
-    con = db.connect()
-    items = [dict(r) for r in con.execute("SELECT * FROM items WHERE qty>0")]
-    con.close()
+    if items is None:
+        con = db.connect()
+        items = [dict(r) for r in con.execute("SELECT * FROM items WHERE qty>0")]
+        con.close()
+    items = [dict(i) for i in items if i["qty"] > 0]
     have = defaultdict(list)  # canonical -> items providing it
     for it in items:
         it["status"] = db.status(it["best_by"] or db.default_best_by(it["category"], it["location"], it["added_on"]), today)
