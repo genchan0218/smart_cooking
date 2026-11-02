@@ -1,0 +1,4 @@
+# Replace pantry.example.com with the real hostname; Caddy gets the HTTPS certificate automatically.
+pantry.example.com {
+    reverse_proxy 127.0.0.1:8080
+}

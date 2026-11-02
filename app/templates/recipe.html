@@ -1,0 +1,11 @@
+{% extends "base.html" %}{% block title %}{{ info.row.name }}{% endblock %}{% block body %}
+<h1>{{ info.row.name }}</h1>
+<div class="mut">{{ info.row.cuisine }}{% if info.row.minutes %} · {{ info.row.minutes }} min{% endif %}{% if info.row.yield %} · yield {{ info.row.yield }}{% endif %}</div>
+<p><a href="{{ info.row.url }}" target="_blank" rel="noopener">Open the full recipe and instructions &#8599;</a></p>
+{% if r %}<div>{% for f in r.flags %}<span class="pill flag">toddler: {{ f }}</span>{% endfor %}</div>
+<h2>On hand ({{ r.matched }}/{{ r.total }})</h2><ul class="plain">{% for line, names in r.have %}<li>{{ line }} <span class="mut">&rarr; {{ names | join(', ') }}</span></li>{% endfor %}</ul>
+{% if r.missing %}<h2>Missing</h2><ul class="plain">{% for m in r.missing %}<li>{{ m }}</li>{% endfor %}</ul>
+<form method="post" action="/shopping/recipe/{{ info.row.id }}"><button>Add missing to shopping list</button></form>{% endif %}
+<p><a href="/cook/{{ info.row.id }}"><button class="sec">Cooked it&hellip;</button></a></p>{% endif %}
+<h2>All ingredients</h2><ul class="plain">{% for l in info.lines %}<li>{{ l }}</li>{% endfor %}</ul>
+{% endblock %}

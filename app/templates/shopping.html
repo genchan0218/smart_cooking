@@ -1,0 +1,7 @@
+{% extends "base.html" %}{% block title %}Shopping{% endblock %}{% block body %}
+<h1>Shopping list</h1>
+<form method="post" action="/shopping/add"><label>Add items (one per line)</label><textarea name="text" rows="3" style="width:100%"></textarea><p><button>Add</button></p></form>
+{% if rows %}<table>{% for r in rows %}<tr><td style="width:44px"><form method="post" action="/shopping/{{ r.id }}/toggle"><button class="sec">{{ '&#10003;' if r.done else '&#9744;' }}</button></form></td>
+<td class="{{ 'done' if r.done }}">{{ r.text }}{% if r.recipe %}<div class="mut">for {{ r.recipe }}</div>{% endif %}</td></tr>{% endfor %}</table>
+<form method="post" action="/shopping/clear"><p><button class="sec">Clear checked</button></p></form>{% else %}<p class="mut">Empty. Open a dish and use "Add missing to shopping list".</p>{% endif %}
+{% endblock %}

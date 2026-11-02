@@ -1,0 +1,1272 @@
+[
+ {
+  "id": 1,
+  "name": "Chicken Florentine lasagna (Trader Joe's)",
+  "category": "frozen meal",
+  "location": "kitchen_freezer",
+  "quantity": 1,
+  "photos": [
+   "IMG_4155.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 2,
+  "name": "Mild sweet & spicy beef & broccoli (TJ)",
+  "category": "frozen meal",
+  "location": "kitchen_freezer",
+  "quantity": 1,
+  "photos": [
+   "IMG_4156.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 3,
+  "name": "Shrimp fried rice (TJ)",
+  "category": "frozen meal",
+  "location": "kitchen_freezer",
+  "quantity": 1,
+  "photos": [
+   "IMG_4157.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 4,
+  "name": "Italian style meatballs (TJ)",
+  "category": "frozen meat",
+  "location": "kitchen_freezer",
+  "quantity": 1,
+  "photos": [
+   "IMG_4158.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 5,
+  "name": "Kung Pao chicken (TJ)",
+  "category": "frozen meal",
+  "location": "kitchen_freezer",
+  "quantity": 1,
+  "photos": [
+   "IMG_4159.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 6,
+  "name": "Garlic naan (TJ)",
+  "category": "frozen bread",
+  "location": "kitchen_freezer",
+  "quantity": 1,
+  "photos": [
+   "IMG_4160.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 7,
+  "name": "Lightly breaded chicken breast chunks (Kirkland)",
+  "category": "frozen meat",
+  "location": "kitchen_freezer",
+  "quantity": 1,
+  "photos": [
+   "IMG_4162.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 8,
+  "name": "Chicken-less mandarin orange morsels (TJ)",
+  "category": "frozen meal",
+  "location": "kitchen_freezer",
+  "quantity": 1,
+  "photos": [
+   "IMG_4163.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 9,
+  "name": "Beef bulgogi (TJ)",
+  "category": "frozen meat",
+  "location": "kitchen_freezer",
+  "quantity": 1,
+  "photos": [
+   "IMG_4164.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 10,
+  "name": "Wagyu beef soup dumplings",
+  "category": "frozen dumplings",
+  "location": "kitchen_freezer",
+  "quantity": 2,
+  "photos": [
+   "IMG_4165.HEIC",
+   "IMG_4166.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 11,
+  "name": "Frozen udon 3-pack (Shirakiku)",
+  "category": "noodles",
+  "location": "kitchen_freezer",
+  "quantity": 1,
+  "photos": [
+   "IMG_4167.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 12,
+  "name": "Frozen shelled edamame",
+  "category": "frozen vegetable",
+  "location": "kitchen_freezer",
+  "quantity": 1,
+  "photos": [
+   "IMG_4168.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 13,
+  "name": "Seafood mix",
+  "category": "frozen seafood",
+  "location": "kitchen_freezer",
+  "quantity": 1,
+  "photos": [
+   "IMG_4169.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 14,
+  "name": "Pork gyoza",
+  "category": "frozen dumplings",
+  "location": "kitchen_freezer",
+  "quantity": 1,
+  "photos": [
+   "IMG_4170.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 15,
+  "name": "Shredded mozzarella (Kirkland)",
+  "category": "dairy",
+  "location": "kitchen_freezer",
+  "quantity": 1,
+  "photos": [
+   "IMG_4171.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 16,
+  "name": "Okonomiyaki (TJ)",
+  "category": "frozen meal",
+  "location": "kitchen_freezer",
+  "quantity": 1,
+  "photos": [
+   "IMG_4172.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 17,
+  "name": "Roasted garlic & pesto pizza (TJ)",
+  "category": "frozen meal",
+  "location": "kitchen_freezer",
+  "quantity": 1,
+  "photos": [
+   "IMG_4173.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 18,
+  "name": "Tuna burgers (Safe Catch)",
+  "category": "frozen seafood",
+  "location": "kitchen_freezer",
+  "quantity": 1,
+  "photos": [
+   "IMG_4174.HEIC"
+  ],
+  "best_by": null,
+  "note": "confirmed by user: one bag only"
+ },
+ {
+  "id": 19,
+  "name": "Frozen kama-age udon",
+  "category": "noodles",
+  "location": "kitchen_freezer",
+  "quantity": 1,
+  "photos": [
+   "IMG_4175.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 20,
+  "name": "Chicken wings (Kirkland)",
+  "category": "frozen meat",
+  "location": "kitchen_freezer",
+  "quantity": 1,
+  "photos": [
+   "IMG_4176.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 21,
+  "name": "Extra lean uncured ham (Kirkland)",
+  "category": "frozen meat",
+  "location": "kitchen_freezer",
+  "quantity": 1,
+  "photos": [
+   "IMG_4177.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 22,
+  "name": "Sausages, vacuum packed",
+  "category": "frozen meat",
+  "location": "kitchen_freezer",
+  "quantity": 1,
+  "photos": [
+   "IMG_4178.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 23,
+  "name": "Freezer drawer: mochi ice cream, ice pops, lemon bars",
+  "category": "dessert",
+  "location": "kitchen_freezer",
+  "quantity": 1,
+  "photos": [
+   "IMG_4179.HEIC"
+  ],
+  "best_by": null,
+  "note": "several items in one photo; split later"
+ },
+ {
+  "id": 24,
+  "name": "Oikos Triple Zero yogurt",
+  "category": "dairy",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4180.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 25,
+  "name": "Cabbage",
+  "category": "produce",
+  "location": "kitchen_fridge",
+  "quantity": 2,
+  "photos": [
+   "IMG_4181.HEIC",
+   "IMG_4182.HEIC"
+  ],
+  "best_by": null,
+  "note": "4181 whole, 4182 cut and bagged; may be one cabbage"
+ },
+ {
+  "id": 26,
+  "name": "Cucumbers",
+  "category": "produce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4183.HEIC"
+  ],
+  "best_by": null,
+  "note": "2 cucumbers in the bag"
+ },
+ {
+  "id": 27,
+  "name": "Potatoes",
+  "category": "produce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4184.HEIC"
+  ],
+  "best_by": null,
+  "note": "photographed on counter; may not be in the fridge"
+ },
+ {
+  "id": 28,
+  "name": "Lobster ravioli (TJ)",
+  "category": "refrigerated meal",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4185.HEIC"
+  ],
+  "best_by": null,
+  "note": "identification is a guess"
+ },
+ {
+  "id": 29,
+  "name": "Organic whole milk A2 (Kirkland)",
+  "category": "dairy",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4186.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 30,
+  "name": "Organic chicken stock (Kirkland)",
+  "category": "stock",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4187.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 31,
+  "name": "Cherry tomatoes on the vine (TJ)",
+  "category": "produce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4188.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 32,
+  "name": "Ponzu, Ajipon (Mizkan)",
+  "category": "sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4189.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 33,
+  "name": "Low-salt soy sauce (Joyo)",
+  "category": "sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4190.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 34,
+  "name": "Kombu tsuyu (Joyo)",
+  "category": "sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4191.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 35,
+  "name": "Dashi shoyu (Kamada)",
+  "category": "sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4192.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 36,
+  "name": "Tomato ketchup (Heinz)",
+  "category": "sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4193.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 37,
+  "name": "Sesame miso dressing (Pietro)",
+  "category": "sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4194.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 38,
+  "name": "Worcestershire sauce (Bull-Dog)",
+  "category": "sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4195.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 39,
+  "name": "Mirin-style seasoning (Joyo)",
+  "category": "sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4196.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 40,
+  "name": "Light soy sauce usukuchi (Kikkoman)",
+  "category": "sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4197.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 41,
+  "name": "Spicy okonomi sauce",
+  "category": "sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4198.HEIC"
+  ],
+  "best_by": "2027-01-08",
+  "note": ""
+ },
+ {
+  "id": 42,
+  "name": "Tonkatsu sauce (Joyo)",
+  "category": "sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4199.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 43,
+  "name": "Ponzu (Marukan)",
+  "category": "sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4200.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 44,
+  "name": "Mirin (Shirakiku)",
+  "category": "sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4201.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 45,
+  "name": "Cooking sake, junmai",
+  "category": "sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4202.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 46,
+  "name": "Organic soy sauce",
+  "category": "sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4203.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 47,
+  "name": "Yakitori sauce",
+  "category": "sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4204.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 48,
+  "name": "Sesame dressing (shabu-shabu)",
+  "category": "sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4205.HEIC"
+  ],
+  "best_by": null,
+  "note": "identification is a guess"
+ },
+ {
+  "id": 49,
+  "name": "Umadare cabbage sauce",
+  "category": "sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4206.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 50,
+  "name": "Mayonnaise (Kewpie-style)",
+  "category": "sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4207.HEIC"
+  ],
+  "best_by": null,
+  "note": "identification is a guess"
+ },
+ {
+  "id": 51,
+  "name": "Tabasco",
+  "category": "sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4208.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 52,
+  "name": "Unidentified green-cap bottle",
+  "category": "sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4209.HEIC"
+  ],
+  "best_by": "2025-08-06",
+  "note": "printed date is already past; nearly empty"
+ },
+ {
+  "id": 53,
+  "name": "Vodka sauce (Rao's)",
+  "category": "pasta sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4210.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 54,
+  "name": "Chuno sauce (Joyo)",
+  "category": "sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4211.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 55,
+  "name": "Mustard (Whole Foods)",
+  "category": "sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4212.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 56,
+  "name": "Dashi shoyu, small carton",
+  "category": "sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4213.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 57,
+  "name": "Rice vinegar (Mizkan)",
+  "category": "sauce",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4214.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 58,
+  "name": "Yuzu kosho",
+  "category": "seasoning",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4215.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 59,
+  "name": "Chinese-style stock paste",
+  "category": "seasoning",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4216.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 60,
+  "name": "Minced garlic (Spice World)",
+  "category": "seasoning",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4217.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 61,
+  "name": "Minced ginger (Spice World)",
+  "category": "seasoning",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4218.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 62,
+  "name": "Garlic paste tube (S&B)",
+  "category": "seasoning",
+  "location": "kitchen_fridge",
+  "quantity": 1,
+  "photos": [
+   "IMG_4219.HEIC"
+  ],
+  "best_by": null,
+  "note": "confirmed by user"
+ },
+ {
+  "id": 63,
+  "name": "Brioche hot dog buns (Bellingers)",
+  "category": "frozen bread",
+  "location": "garage_freezer",
+  "quantity": 1,
+  "photos": [
+   "IMG_4220.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 64,
+  "name": "Sausages, 5 links",
+  "category": "frozen meat",
+  "location": "garage_freezer",
+  "quantity": 2,
+  "photos": [
+   "IMG_4221.HEIC",
+   "IMG_4222.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 65,
+  "name": "Hiyashi ramen, yuzu & vinegar soy (Sun Noodle)",
+  "category": "noodles",
+  "location": "garage_freezer",
+  "quantity": 2,
+  "photos": [
+   "IMG_4223.HEIC",
+   "IMG_4224.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 66,
+  "name": "Nagasaki champon ramen (Myojo)",
+  "category": "noodles",
+  "location": "garage_freezer",
+  "quantity": 2,
+  "photos": [
+   "IMG_4225.HEIC",
+   "IMG_4227.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 67,
+  "name": "Nama yaki-soba (Maruchan)",
+  "category": "noodles",
+  "location": "garage_freezer",
+  "quantity": 1,
+  "photos": [
+   "IMG_4226.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 68,
+  "name": "Crustless PB&J sandwiches",
+  "category": "frozen meal",
+  "location": "garage_freezer",
+  "quantity": 3,
+  "photos": [
+   "IMG_4228.HEIC",
+   "IMG_4229.HEIC",
+   "IMG_4230.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 69,
+  "name": "Salmon fillets",
+  "category": "frozen seafood",
+  "location": "garage_freezer",
+  "quantity": 3,
+  "photos": [
+   "IMG_4232.HEIC",
+   "IMG_4233.HEIC",
+   "IMG_4234.HEIC"
+  ],
+  "best_by": null,
+  "note": "4231 shows the drawer they came from"
+ },
+ {
+  "id": 70,
+  "name": "Otona no furikake, salmon",
+  "category": "furikake",
+  "location": "cabinet",
+  "quantity": 5,
+  "photos": [
+   "IMG_4236.HEIC",
+   "IMG_4237.HEIC",
+   "IMG_4238.HEIC",
+   "IMG_4244.HEIC",
+   "IMG_4246.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 71,
+  "name": "Momofuku spicy soy noodles",
+  "category": "noodles",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4239.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 72,
+  "name": "Dried shiitake",
+  "category": "dried goods",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4240.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 73,
+  "name": "Cut dashi kombu",
+  "category": "dried goods",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4241.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 74,
+  "name": "Kinoko gohan mix",
+  "category": "rice mix",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4242.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 75,
+  "name": "Tororo kombu",
+  "category": "dried goods",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4243.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 76,
+  "name": "Aage-dama (tenkasu), plain",
+  "category": "dried goods",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4245.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 77,
+  "name": "Vegetable furikake (Ohmoriya)",
+  "category": "furikake",
+  "location": "cabinet",
+  "quantity": 3,
+  "photos": [
+   "IMG_4247.HEIC",
+   "IMG_4248.HEIC",
+   "IMG_4254.HEIC"
+  ],
+  "best_by": "2026-10",
+  "note": "past best-by as of 2026-11-01"
+ },
+ {
+  "id": 78,
+  "name": "Furikake, DHA/EPA (Tanaka)",
+  "category": "furikake",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4249.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 79,
+  "name": "Nori-tama furikake (Marumiya)",
+  "category": "furikake",
+  "location": "cabinet",
+  "quantity": 3,
+  "photos": [
+   "IMG_4250.HEIC",
+   "IMG_4251.HEIC",
+   "IMG_4252.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 80,
+  "name": "Nori-tama furikake variety pack",
+  "category": "furikake",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4253.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 81,
+  "name": "Shin Ramyun (Nongshim)",
+  "category": "noodles",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4255.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 82,
+  "name": "Loco Moco gravy mix (NOH)",
+  "category": "sauce mix",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4256.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 83,
+  "name": "Ground meat curry roux (S&B)",
+  "category": "roux",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4257.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 84,
+  "name": "Beef stew roux (S&B)",
+  "category": "roux",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4259.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 85,
+  "name": "Salted edamame snack",
+  "category": "snack",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4260.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 86,
+  "name": "Potato potage mix",
+  "category": "soup mix",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4261.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 87,
+  "name": "Pancake mix, hotcake",
+  "category": "baking",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4262.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 88,
+  "name": "Hokkaido creamy potage mix",
+  "category": "soup mix",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4263.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 89,
+  "name": "Hokkaido gratin mix (House)",
+  "category": "sauce mix",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4264.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 90,
+  "name": "Corn potage mix",
+  "category": "soup mix",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4265.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 91,
+  "name": "Japanese-style pasta sauce mix",
+  "category": "sauce mix",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4266.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 92,
+  "name": "Yaki-ago dashi packs (Yamaki)",
+  "category": "dashi",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4267.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 93,
+  "name": "Hondashi bonito stock (Ajinomoto)",
+  "category": "dashi",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4268.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 94,
+  "name": "Hokkaido ramen",
+  "category": "noodles",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4269.HEIC"
+  ],
+  "best_by": null,
+  "note": "4269 shows ramen and udon together"
+ },
+ {
+  "id": 95,
+  "name": "Dried udon",
+  "category": "noodles",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4269.HEIC"
+  ],
+  "best_by": null,
+  "note": "same photo as Hokkaido ramen"
+ },
+ {
+  "id": 96,
+  "name": "Dried pasta",
+  "category": "pasta",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4271.HEIC"
+  ],
+  "best_by": null,
+  "note": "3 packs in one photo"
+ },
+ {
+  "id": 97,
+  "name": "Gnocchi (TJ)",
+  "category": "pasta",
+  "location": "cabinet",
+  "quantity": 2,
+  "photos": [
+   "IMG_4272.HEIC",
+   "IMG_4273.HEIC"
+  ],
+  "best_by": "2027-05",
+  "note": ""
+ },
+ {
+  "id": 98,
+  "name": "Rosatella pasta sauce (TJ)",
+  "category": "pasta sauce",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4274.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 99,
+  "name": "Alfredo pasta sauce (TJ)",
+  "category": "pasta sauce",
+  "location": "cabinet",
+  "quantity": 3,
+  "photos": [
+   "IMG_4275.HEIC",
+   "IMG_4276.HEIC",
+   "IMG_4277.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 100,
+  "name": "Organic vodka sauce (TJ Giotto's)",
+  "category": "pasta sauce",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4278.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 101,
+  "name": "Tomato & basil sauce (Martone)",
+  "category": "pasta sauce",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4279.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 102,
+  "name": "Miso ramen cup",
+  "category": "noodles",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4280.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 103,
+  "name": "Tonkotsu ramen cup",
+  "category": "noodles",
+  "location": "cabinet",
+  "quantity": 3,
+  "photos": [
+   "IMG_4281.HEIC",
+   "IMG_4282.HEIC",
+   "IMG_4283.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ },
+ {
+  "id": 104,
+  "name": "Demi-glace sauce (Chef Troy)",
+  "category": "sauce",
+  "location": "cabinet",
+  "quantity": 1,
+  "photos": [
+   "IMG_4284.HEIC"
+  ],
+  "best_by": null,
+  "note": ""
+ }
+]

@@ -1,0 +1,13 @@
+[Unit]
+Description=Pantry dashboard (Smart Grocery Shopping)
+After=network.target
+
+[Service]
+User=pantry
+WorkingDirectory=/opt/pantry/app
+EnvironmentFile=/etc/pantry.env
+ExecStart=/opt/pantry/venv/bin/uvicorn main:app --host 127.0.0.1 --port 8080
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

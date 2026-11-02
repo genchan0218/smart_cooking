@@ -1,0 +1,14 @@
+{% extends "base.html" %}{% block title %}Inventory{% endblock %}{% block body %}
+<h1>Inventory</h1><p class="mut">{{ rows|length }} items, {{ units }} units. Status uses the printed best-by date, or an estimate from the day it was added (marked ~).</p>
+<div class="filters"><a class="{{ 'on' if loc=='all' }}" href="/inventory">All</a>
+{% for k,l in LOCATIONS %}<a class="{{ 'on' if loc==k }}" href="/inventory?loc={{ k }}">{{ l }}</a>{% endfor %}</div>
+<form class="row" method="get" action="/inventory"><input type="hidden" name="loc" value="{{ loc }}"><input name="q" value="{{ q }}" placeholder="Search items"><button class="sec">Search</button></form><br>
+<table class="stack"><thead><tr><th>Item</th><th>Where</th><th>Added</th><th>Status</th><th>Qty / best-by</th></tr></thead>
+{% for r in rows %}<tr><td>{{ r.name }}{% if r.note %}<div class="mut">{{ r.note }}</div>{% endif %}</td>
+<td>{{ LOC_LABEL[r.location] }}</td><td>{{ r.age_days }}d ago</td>
+<td><span class="pill {{ r.status[1] }}">{% if r.estimated %}~{% endif %}{{ r.status[0] }}</span></td>
+<td><form class="row" method="post" action="/inventory/{{ r.id }}"><input type="hidden" name="back" value="/inventory?loc={{ loc }}">
+<input type="number" name="qty" min="0" value="{{ r.qty }}"><input type="date" name="best_by" value="{{ r.best_by or '' }}">
+<select name="location">{% for k,l in LOCATIONS %}<option value="{{ k }}" {{ 'selected' if k==r.location }}>{{ l }}</option>{% endfor %}</select>
+<button class="sec">Save</button></form></td></tr>{% endfor %}</table>
+{% endblock %}

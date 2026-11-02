@@ -1,0 +1,23 @@
+{% extends "base.html" %}{% block title %}Tonight{% endblock %}{% block body %}
+<h1>What can we make?</h1>
+<p class="mut">For 2 adults + a toddler. Eggs, rice, onions, scallions, oil, butter and flour are assumed on hand.</p>
+{% macro q(t=tab, c=cuisine, qk=quick, k=kid, a=allkinds) %}/?tab={{t}}&cuisine={{c}}&quick={{qk}}&kid={{k}}&allkinds={{a}}{% endmacro %}
+<div class="tabs">
+<a class="{{ 'on' if tab=='now' }}" href="{{ q(t='now') }}">Cook now ({{ counts.now }})</a>
+<a class="{{ 'on' if tab=='miss' }}" href="{{ q(t='miss') }}">Missing 1-2 ({{ counts.miss }})</a>
+<a class="{{ 'on' if tab=='soon' }}" href="{{ q(t='soon') }}">Use it up ({{ counts.soon }})</a></div>
+<div class="filters">
+<a class="{{ 'on' if cuisine=='all' }}" href="{{ q(c='all') }}">All cuisines</a>
+<a class="{{ 'on' if cuisine=='japanese' }}" href="{{ q(c='japanese') }}">Japanese</a>
+<a class="{{ 'on' if cuisine=='western' }}" href="{{ q(c='western') }}">Western</a>
+<a class="{{ 'on' if quick }}" href="{{ q(qk=0 if quick else 1) }}">{{ QUICK_MIN }} min or less</a>
+<a class="{{ 'on' if kid }}" href="{{ q(k=0 if kid else 1) }}">Toddler-friendly only</a>
+<a class="{{ 'on' if allkinds }}" href="{{ q(a=0 if allkinds else 1) }}">Include desserts &amp; sides</a></div>
+{% for r in recipes %}<div class="card">
+<h3><a href="/recipe/{{ r.id }}">{{ r.r.name }}</a></h3>
+<div class="mut">{{ r.r.cuisine }}{% if r.r.minutes %} · {{ r.r.minutes }} min{% endif %} · {{ r.matched }}/{{ r.total }} ingredients on hand</div>
+<div>{% for f in r.flags %}<span class="pill flag">toddler: {{ f }}</span>{% endfor %}
+{% for n in r.soon %}<span class="pill soon">use soon: {{ n }}</span>{% endfor %}</div>
+{% if r.missing %}<div class="mut">Missing: {{ r.missing | map('truncate', 40) | join('; ') }}</div>{% endif %}
+</div>{% else %}<p class="mut">Nothing in this view. Try another tab or loosen a filter.</p>{% endfor %}
+{% endblock %}

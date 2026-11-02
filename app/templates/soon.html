@@ -1,0 +1,7 @@
+{% extends "base.html" %}{% block title %}Use soon{% endblock %}{% block body %}
+<h1>Use soon</h1><p class="mut">Past best-by is a soft warning. Dried goods are usually fine; check fresh meat, fish, dairy and produce before using.</p>
+{% for key, title in [('soon','Within 7 days'),('past','Past best-by')] %}<h2>{{ title }} ({{ groups[key]|length }})</h2>
+{% if groups[key] %}<table class="stack">{% for r in groups[key] %}<tr><td>{{ r.name }} <span class="mut">x{{ r.qty }}</span></td><td>{{ LOC_LABEL[r.location] }}</td>
+<td><span class="pill {{ r.status[1] }}">{% if r.estimated %}~{% endif %}{{ r.status[0] }}</span></td><td class="mut">{{ r.eff_best_by }}</td></tr>{% endfor %}</table>
+{% else %}<p class="mut">None.</p>{% endif %}{% endfor %}
+{% endblock %}

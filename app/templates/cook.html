@@ -1,0 +1,5 @@
+{% extends "base.html" %}{% block title %}Cooked it{% endblock %}{% block body %}
+<h1>Cooked: {{ r.r.name }}</h1><p class="mut">Tick what was used up. Each ticked item goes down by one. Sauces and seasonings are left alone.</p>
+<form method="post" action="/cook/{{ r.id }}">{% for i in rows %}<label style="font-weight:400"><input type="checkbox" name="use" value="{{ i.id }}" checked> {{ i.name }} <span class="mut">(have {{ i.qty }}, {{ LOC_LABEL[i.location] }})</span></label>{% else %}<p class="mut">No consumable items matched.</p>{% endfor %}
+<p><button>Update inventory</button> <a href="/recipe/{{ r.id }}"><button type="button" class="sec">Cancel</button></a></p></form>
+{% endblock %}

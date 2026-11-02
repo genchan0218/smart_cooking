@@ -1,0 +1,13 @@
+{% extends "base.html" %}{% block title %}Add item{% endblock %}{% block body %}
+<h1>Add an item</h1>{% if msg %}<div class="msg">{{ msg }}</div>{% endif %}
+{% if vision_on %}<div class="card"><b>From a photo</b><div class="mut">Reads the name and printed best-by date. Always check before saving.</div>
+<form method="post" action="/add/photo" enctype="multipart/form-data" class="row" style="margin-top:8px"><input type="file" name="file" accept="image/*" required>
+<select name="location">{% for k,l in LOCATIONS %}<option value="{{ k }}" {{ 'selected' if k==f.location }}>{{ l }}</option>{% endfor %}</select><button>Read photo</button></form></div>{% endif %}
+<div class="card"><form method="post" action="/add">{% if f.photo %}<img class="thumb" src="/uploads/{{ f.photo }}"><input type="hidden" name="photo" value="{{ f.photo }}">{% endif %}
+<label>Name</label><input name="name" value="{{ f.name }}" required style="width:100%">
+<div class="grid"><div><label>Category</label><select name="category" style="width:100%">{% for c in CATEGORIES %}<option {{ 'selected' if c==f.category }}>{{ c }}</option>{% endfor %}</select></div>
+<div><label>Location</label><select name="location" style="width:100%">{% for k,l in LOCATIONS %}<option value="{{ k }}" {{ 'selected' if k==f.location }}>{{ l }}</option>{% endfor %}</select></div>
+<div><label>Quantity</label><input type="number" name="qty" min="1" value="{{ f.qty }}"></div>
+<div><label>Best-by (optional, YYYY-MM or full date)</label><input name="best_by" value="{{ f.best_by }}" placeholder="2027-05"></div></div>
+<p><button>Save item</button></p></form></div>
+{% endblock %}

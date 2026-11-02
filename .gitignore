@@ -1,0 +1,21 @@
+# personal photos of the home (235 MB, not for a repo)
+photos/
+
+# runtime state
+app/grocery.db
+app/uploads/
+__pycache__/
+*.pyc
+
+# secrets: never commit keys or env files
+*.env
+.env*
+!app/deploy/pantry.env.example
+*.pem
+*service-account*.json
+my-crypto-project-*.json
+
+# scraped recipe text and test output: regenerate with scripts/, do not publish
+data/recipes.json
+data/recipe_matches.json
+data/test_*.json
